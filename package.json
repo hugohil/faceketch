@@ -1,0 +1,22 @@
+{
+  "name": "faceSketch",
+  "version": "0.0.1",
+  "description": "Sketchy faces",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hugohil"
+  },
+  "keywords": [
+    "paperjs",
+    "face",
+    "generative",
+    "drawing",
+    "interactive"
+  ],
+  "author": "hugohil",
+  "license": "MIT"
+}
