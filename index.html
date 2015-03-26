@@ -6,38 +6,13 @@
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
+    <span id="tooltip"></span>
+    <canvas id="cvs"></canvas>
 
-    <canvas id="cvs" width='300' height='300'></canvas>
-
-    <label for="xRadius">X Radius</label>
-    <input type="range" name="xRadius" id="xRadius" min="0" max="100">
-    <label for="yRadius">Y Radius</label>
-    <input type="range" name="yRadius" id="yRadius" min="0" max="100">
-    <label for="eyeWidth">Eye Width</label>
-    <input type="range" name="eyeWidth" id="eyeWidth" min="0" max="100">
-    <label for="eyeHeight">Eye Height</label>
-    <input type="range" name="eyeHeight" id="eyeHeight" min="0" max="100">
-    <label for="noseWidth">Nose Width</label>
-    <input type="range" name="noseWidth" id="noseWidth" min="0" max="100">
-    <label for="noseHeight">Nose Height</label>
-    <input type="range" name="noseHeight" id="noseHeight" min="0" max="100">
-    <label for="mouthDir">Mouth Direction</label>
-    <input type="range" name="mouthDir" id="mouthDir" min="0" max="100">
-    <label for="mouthWidth">Mouth Width</label>
-    <input type="range" name="mouthWidth" id="mouthWidth" min="0" max="100">
-    <label for="mouthHeight">Mouth Height</label>
-    <input type="range" name="mouthHeight" id="mouthHeight" min="0" max="100">
-    <label for="fx">Effect</label>
-    <input type="range" name="fx" id="fx" min="0" max="10" step="0.1">
-    <label for="outline">Outline</label>
-    <input type="color" name="outline" id="outline">
-
-    <footer>
-        This is inspired by Mathias Dörfelt.
-    </footer>
-
+    <script type="text/javascript" src="bower_components/lodash/lodash.js"></script>
+    <script type="text/javascript" src="data/face.js"></script>
     <script type="text/javascript" src="js/paper.js"></script>
-    <script type="text/paperscript" src="js/faces.js" canvas='cvs'></script>
+    <script type="text/paperscript" src="js/face-fpp.js" canvas='cvs'></script>
     <!-- <script type="text/javascript" src="js/client.js"></script> -->
 </body>
 </html>
